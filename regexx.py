@@ -32,6 +32,9 @@ Regex_Pattern = r"(?<![aeiouAEIOU])." #The negative lookbehind (?<!) asserts reg
 
 Regex_Pattern =r"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])\w{8,}$"
 
+regularExpression = r'(^[a-z])(.*(\1))?$'
+
+
 
 
 
